@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Turn It On and Off</name>
+	<author>Ryder</author>
+	<packageId>ryder.turnitonoff</packageId> 
+	<supportedVersions>
+		<li>1.1</li>
+		<li>1.2</li>
+	</supportedVersions>
+	<description>
+		
+This makes many electrical machines use minimum possible power (1 watt) when not in use. In addition, many electrical machines from other mods should behave the same way.
+
+Fully save compatible. Can be added or removed at any time. Please report any errors.
+ 
+Credits:
+Thom Blair III (Idea for the mod and programming)
+Fluffy (Programming)
+Xen (Programming)
+NubsPixel (RePower B19 mod)
+Texel (original RePower A16 mod)
+	</description>
+	<loadAfter>
+		<li>Ludeon.RimWorld</li>
+		<li>Ludeon.RimWorld.Royalty</li>
+		<li>UnlimitedHugs.Hugslib</li>
+		<li>brrainz.harmony</li>
+
+	</loadAfter>
+	<modDependencies>
+    <li>
+        <packageId>brrainz.harmony</packageId>
+        <displayName>Harmony</displayName>
+        <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+        <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+    </li>
+	<li>
+        <packageId>UnlimitedHugs.Hugslib</packageId>
+        <displayName>Hugslib</displayName>
+		<steamWorkshopUrl>steam://url/CommunityFilePage/818773962</steamWorkshopUrl>
+        <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+    </li>
+	</modDependencies>
+</ModMetaData>
+
