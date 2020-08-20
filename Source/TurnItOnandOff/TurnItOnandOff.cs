@@ -240,7 +240,10 @@ namespace TurnItOnandOff
 
         static void RegisterSpecialPowerTrader(string defName, float idlePower, float activePower)
         {
-            powerLevels.Add(defName, new Vector2(idlePower, activePower));
+            if (!powerLevels.ContainsKey(defName))
+            {
+                powerLevels.Add(defName, new Vector2(idlePower, activePower));
+            }            
         }
 
         static public float PowerFactor(CompPowerTrader trader, Building building)
